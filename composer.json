@@ -13,7 +13,8 @@
     },
     "type": "library",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "hyperf-lib/sms": "^2.0"
     },
     "license": "MIT",
     "authors": [
