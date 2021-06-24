@@ -1,0 +1,33 @@
+{
+    "name": "andphp/hyperf-sms",
+    "description": "Sms for Hyperf",
+    "keywords": [
+        "php",
+        "Hyperf",
+        "SMS"
+    ],
+    "autoload": {
+        "psr-4": {
+            "AndPHP\\HyperfSms\\": "src/"
+        }
+    },
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Da Xiong",
+            "email": "417170808@qq.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "hyperf": {
+            "config": "AndPHP\\HyperfSms\\ConfigProvider"
+        }
+    }
+}
